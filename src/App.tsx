@@ -1,0 +1,28 @@
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Collections from './components/Collections';
+import FeaturedProducts from './components/FeaturedProducts';
+import About from './components/About';
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+      <Collections />
+      <FeaturedProducts />
+      <About />
+      <Services />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
