@@ -6,37 +6,37 @@ const Collections = () => {
     {
       title: "Nike Track Pants",
       description: "Performance-driven and stylish track pants for every athlete.",
-      image: "/src/assets/nike.jpg",
+      image: "/assets/nike.jpg",
       items: "50+ Styles"
     },
     {
       title: "Adidas Track Pants",
       description: "Comfort meets function with signature stripes and designs.",
-      image: "/src/assets/adidas.jpg",
+      image: "/assets/adidas.jpg",
       items: "65+ Styles"
     },
     {
       title: "Puma Track Pants",
       description: "Bold looks with unmatched flexibility and fit.",
-      image: "/src/assets/puma.jpg",
+      image: "/assets/puma.jpg",
       items: "40+ Styles"
     },
     {
       title: "HRX Track Pants",
-      description: "/src/assets/hrx.jpg",
-      image: "/src/assets/hrx.jpg",
+      description: "/assets/hrx.jpg",
+      image: "/assets/hrx.jpg",
       items: "30+ Styles"
     },
     {
       title: "Under Armour",
       description: "Train harder with UA’s premium track pant range.",
-      image: "/src/assets/underarmor.jpg",
+      image: "/assets/underarmor.jpg",
       items: "45+ Styles"
     },
     {
       title: "Reebok Track Pants",
       description: "Classic cuts, modern materials — Reebok redefines motion.",
-      image: "/src/assets/reebok.jpg",
+      image: "/assets/reebok.jpg",
       items: "35+ Styles"
     }
   ];

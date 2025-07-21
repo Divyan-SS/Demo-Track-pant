@@ -16,7 +16,7 @@ const FeaturedProducts = () => {
       name: `${brand} ${style} Track Pant`,
       price: `₹${999 + sIndex * 100}`,
       originalPrice: sIndex % 2 === 0 ? `₹${1299 + sIndex * 100}` : null,
-      image: `/src/assets/${brand.toLowerCase().replace(/\s/g, '')}/${style.toLowerCase()}.jpg`,
+      image: `/assets/${brand.toLowerCase().replace(/\s/g, '')}/${style.toLowerCase()}.jpg`,
       rating: 4 + ((sIndex + bIndex) % 2) * 0.5,
       isNew: sIndex === 0 || sIndex === 1
     }))
